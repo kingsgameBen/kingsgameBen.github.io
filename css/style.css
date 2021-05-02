@@ -1,0 +1,53 @@
+.main {
+    background: url("../img/background/confortableDesk.jpg");
+    height: 95vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+  }
+  
+  .focus{
+      height: 400px;
+  }
+  
+  .focus h1{
+      font-size: 80px;
+  
+  }
+  
+  .text-shadow{
+      text-shadow:5px 5px 5px rgb(15, 37, 61);
+  }
+  
+  /* .jobs{
+      background: url('../img/background/bethany-legg-9248.jpg');
+      background-position: center;
+      background-size: cover;
+      padding: 60px;
+  } */
+  
+  
+  @media screen and (max-width: 550px){
+      .main{
+          height: 75vh;
+      }
+  
+      .jobs{
+          padding: 40px 20px;
+      }
+  
+      .slider{
+          display: none;
+      }
+  
+      .focus h1{
+          font-size: 60px;
+      }
+  
+      .focus h2{
+          font-size: 20px;
+      }
+  
+  }
+  
