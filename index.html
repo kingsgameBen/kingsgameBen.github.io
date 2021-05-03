@@ -14,10 +14,13 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
+    <div class="wrapper">
     <!-- navbar ------------------------------------>
     <nav class="navbar navbar-expand-md navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">iShape</a>
+        <img  class="logo" src="img/logo.png" alt="">
+          <a class="navbar-brand" href="#">iShape</a>
+        </img>
         <button
           class="navbar-toggler"
           type="button"
@@ -36,7 +39,7 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
+              <a class="nav-link" href="#">體脂日誌</a>
             </li>
 
             <li class="nav-item">
@@ -45,7 +48,7 @@
                 href="#"
                 tabindex="-1"
                 aria-disabled="true"
-                >VIP member</a
+                >體態分析</a
               >
             </li>
           </ul>
@@ -66,10 +69,15 @@
     <!-- main -------------------------------------->
     <div class="main">
       <div class="container focus text-center text-black">
-        <!-- h1 -->
         <div class="row">
           <div class="col">
-            <h1>今天  也來量體脂吧</h1>
+            <img class="col-s-9 col-sm-6 col-lg-6" src="img/ishape_title.png" ></img>
+          </div>
+        </div>
+        <!-- h2 -->
+        <div class="row">
+          <div class="col">
+            <h2>今天  也來量體脂吧</h2>
           </div>
         </div>
         <!-- .row>.col -->
@@ -144,11 +152,12 @@
 
     <!-- jobs -------------------------------------->
 
-
+  </div>
     <!-- copyright --------------------------------->
-    <div class="copyright bg-dark text-center text-light p-3">
+    <!--  copyright bg-dark text-center text-light p-3 sticky-bottom -->
+    <footer class="footer mt-5">
       Copyright © 2021 iShape All rights reserved.
-    </div>
+    </footer>
 
 
     <script

@@ -1,6 +1,25 @@
+html {
+    height: 100%; /*外層高度100%*/
+    margin:0;
+}
+body {
+    display: flex; /*使物件依序排列*/
+    flex-direction: column; 
+}
+.wrapper {
+    flex-grow: 1; /*可佔滿垂直剩餘的空間*/
+
+}
+
+.footer{
+    background-color: rgb(119, 196, 209);
+    text-align: center;
+    position:sticky;
+}
+
 .main {
-    background: url("../img/background/confortableDesk.jpg");
-    height: 95vh;
+    background: url("../img/confortableDesk.jpg");
+    /* height: 95vh; */
     background-position: center;
     background-size: cover;
     display: flex;
@@ -8,7 +27,7 @@
   }
   
   .focus{
-      height: 400px;
+      /* height: 400px; */
   }
   
   .focus h1{
@@ -20,14 +39,10 @@
       text-shadow:5px 5px 5px rgb(15, 37, 61);
   }
   
-  /* .jobs{
-      background: url('../img/background/bethany-legg-9248.jpg');
-      background-position: center;
-      background-size: cover;
-      padding: 60px;
-  } */
-  
-  
+  .logo{
+      height: 5vh;
+      width: auto;
+  }
   @media screen and (max-width: 550px){
       .main{
           height: 75vh;
